@@ -1,0 +1,384 @@
+
+body {
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+*{
+    margin: 0px;
+}
+
+.navbar{
+
+justify-content: space-between;                                                                                                                                                     
+align-items: center;
+display: flex;
+box-shadow: 0px 2px  rgba(0,0,0,.2);
+padding: 5px 100px 5px 60px
+}
+
+
+
+.navbar ul {
+    
+ display: flex;
+}
+ ul {
+
+    margin: 0px;
+ }
+
+
+li a {
+
+padding-left: 30px;
+text-decoration: none;
+align-items: center;
+font-size: 18px;
+font-weight: bold;
+font-family: 'Poppins', sans-serif;
+color: black;
+}
+
+li i {
+
+padding: 0px 0px 0px 30px;
+font-size: 20px;
+margin-top: 4px;
+
+}
+li  {
+    
+    padding: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+.name a {
+
+ font-size: 30px;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bold;
+ 
+
+}
+
+.top-content  {
+
+    text-align: center;
+   
+}
+.top-content h3 {
+
+font-size: 30px;
+font-weight: bold;
+margin-top: 80px;
+margin-bottom: 10px;
+}
+
+.top-content p{
+
+color: green;
+}
+.main {
+
+    
+    padding: 3px 260px;
+    /* border: solid black; */
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.main-img{
+
+
+    height: 350px;
+    width: 330px;
+    background: url('/image/zain.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.main-content  {
+
+height: auto;
+width: 400px;
+text-align: justify;
+
+
+}
+.main-content p {
+    line-height: 23px;
+
+
+
+}
+
+
+
+.fonts{
+
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+
+
+}
+
+.fonts p {
+margin-left: 10px;
+
+
+    
+}
+.fonts i{
+    margin-top: 10px;
+}
+
+.fonts a {
+
+    padding-left: 10px;
+font-size: 12px;
+
+}
+
+button {
+
+    background-color: rgb(29, 29, 61);
+    height: 40px;
+    width: 130px;
+    margin-top: 20px;   
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.skill{
+
+    margin-top: 50px;
+    height: 300px;
+    padding: 5px 100px 5px 60px;
+    
+}
+.skill h3 {
+font-family: 'Poppins', sans-serif;
+font-size: 30px;
+text-align: center;
+    
+}
+.skill p {
+
+text-align: center;
+color: green;
+font-size: 15px;
+margin-top: 10px;
+}
+
+.p-skill{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+justify-content: space-between;
+}
+
+.skill-section{
+
+margin-top: 50px;
+
+}
+
+.skill-section h5 {
+ padding-top: 40px;
+ 
+}
+
+
+.html {
+    width: 350px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 2px;
+    position: relative;
+  
+}   
+.upper{
+
+    position: absolute;
+    width: 300px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: blue;
+}
+.upper-2{
+
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: blue;
+}
+.upper-3{
+
+    position: absolute;
+    width: 100px;
+    border-radius: 2px;
+    height: 5px;
+    background-color: blue;
+
+}
+
+.upper-4{
+
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: blue;
+}
+
+.right-sec img {
+
+height: 320px;
+
+}
+
+.skill-content {
+    /* font-family: 'Poppins', sans-serif; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.skill-content h5{
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.content-section{
+
+    margin-top: 50px;
+    height: auto;
+    padding: 5px 100px 5px 60px;
+}
+
+.content-section h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.content-section p {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: green
+}
+
+.conect-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.name-input {    
+margin: auto;
+margin-top: 20px;
+width: 450px;
+height: 40px;
+border-radius: 8px;
+border: none;
+background-color: gainsboro;
+}
+
+.email-input{
+margin: auto;
+margin-top: 20px;
+width: 450px;
+height: 40px;
+border-radius: 8px;
+border: none;
+background-color: gainsboro;
+} 
+
+textarea{
+    width: 450px;
+    height: 180px;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 20px;
+border: none;
+background-color: gainsboro;
+}
+
+.button-2  {
+
+    background-color: rgb(29, 29, 61);
+    height: 40px;
+    width: 130px;  
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin: auto;
+    margin-top: 10px;
+}
+    
+footer{
+
+
+    background-color: rgb(209, 188, 188);
+}
+
+.p1 h4 {
+    font-family: 'Poppins', sans-serif;
+text-align: center;
+Padding-top: 10px;
+font-size: 20px;
+font-weight: bold;
+color: black;
+height: auto;
+
+}
+
+
+.icon-2{
+
+    text-align: center;
+   
+    
+}
+.icon-2  i {
+
+
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: blue;
+    border-radius: 50%;
+    background : white;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.p2  {
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+    text-align: center;
+    height: auto;
+    color: wheat;
+    padding: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    
+}
